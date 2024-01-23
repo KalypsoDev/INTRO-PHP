@@ -15,6 +15,13 @@
         echo "<br>";
         //echo "&lt;br>"; html entities > if I wanted to display the br tag on the browser
         echo $mySentence;
+        echo "<br>";
+        var_dump($mySentence);
+        //it returns the value of the variable, its type of data and amount of characters; it's useful for debugging
+        echo "<br>";
+        var_dump($myNumber);
+        echo "<br>";
+        var_dump($myName);
     ?>
     <p>My name is <?php
     echo $myName . " and my favourite number is $myNumber </p>";
